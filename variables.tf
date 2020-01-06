@@ -43,3 +43,9 @@ variable "tags" {
 
   description = "Any tags which should be assigned to the resources in this example"
 }
+
+variable "remotestate_sas" {
+
+  description = "This will be your sas token for Remote state container"
+  
+}
